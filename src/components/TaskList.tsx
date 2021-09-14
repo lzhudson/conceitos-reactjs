@@ -27,6 +27,7 @@ export function TaskList() {
       isComplete: false
     }
     setTasks([...tasks, task]);
+    setNewTaskTitle('');
   }
 
   function handleToggleTaskCompletion(id: number) {
